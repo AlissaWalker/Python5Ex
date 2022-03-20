@@ -1,9 +1,10 @@
-
-def str_len(str_in: str) -> str:
+def str_len():
+    #(list_in: List, pos: int) -> str) -> List:
     """
     Given a string parameter, this function should return the length of the parameter.
     """
-    pass  # remove pass statement and implement me
+
+    pass #  will fix in a sec
 
 
 def first_char(str_in: str) -> str:
