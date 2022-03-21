@@ -10,14 +10,14 @@ def first_char(str_in: str) -> str:
     """
     Given a string parameter, this function should return the first letter of the parameter.
     """
-    pass  # remove pass statement and implement me
+    return (str_in[0])
 
 
 def last_char(str_in: str) -> str:
     """
     Given a string parameter, this function should return the last letter of the parameter..
     """
-    pass  # remove pass statement and implement me
+    return (str_in[-1])
 
 
 def input_has_substring(str_in: str, sub_str_in: str) -> bool:
