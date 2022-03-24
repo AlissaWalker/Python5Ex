@@ -45,4 +45,4 @@ def opposite_case(str_in: str) -> str:
     Example: 
     When input = "Python" the function returns "pYTHON"
     """
-    pass  # remove pass statement and implement me
+    return str_in.swapcase()  
