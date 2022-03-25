@@ -5,4 +5,9 @@ def is_palindrome(value: str) -> bool:
     :param value: A string
     :return: A boolean
     """
-    pass  # remove pass statement and implement me
+    value = value.lower().replace(' ', '')
+    reversed_str = value[::-1]
+    if value == reversed_str:
+        return True
+    else:
+        return False
